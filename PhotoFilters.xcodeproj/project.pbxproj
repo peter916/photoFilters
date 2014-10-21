@@ -12,6 +12,7 @@
 		D0D2AB5619F557E80075FD1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0D2AB5419F557E80075FD1D /* Main.storyboard */; };
 		D0D2AB5819F557E80075FD1D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0D2AB5719F557E80075FD1D /* Images.xcassets */; };
 		D0D2AB6419F557E80075FD1D /* PhotoFiltersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D2AB6319F557E80075FD1D /* PhotoFiltersTests.swift */; };
+		D0D2AB6E19F562820075FD1D /* 089B66EAD82B1C209FC871020C7208E1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D0D2AB6D19F562820075FD1D /* 089B66EAD82B1C209FC871020C7208E1.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		D0D2AB5D19F557E80075FD1D /* PhotoFiltersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoFiltersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0D2AB6219F557E80075FD1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0D2AB6319F557E80075FD1D /* PhotoFiltersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoFiltersTests.swift; sourceTree = "<group>"; };
+		D0D2AB6D19F562820075FD1D /* 089B66EAD82B1C209FC871020C7208E1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 089B66EAD82B1C209FC871020C7208E1.jpeg; path = ../../../Desktop/089B66EAD82B1C209FC871020C7208E1.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		D0D2AB4D19F557E80075FD1D /* PhotoFilters */ = {
 			isa = PBXGroup;
 			children = (
+				D0D2AB6D19F562820075FD1D /* 089B66EAD82B1C209FC871020C7208E1.jpeg */,
 				D0D2AB5019F557E80075FD1D /* AppDelegate.swift */,
 				D0D2AB5219F557E80075FD1D /* ViewController.swift */,
 				D0D2AB5419F557E80075FD1D /* Main.storyboard */,
@@ -190,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0D2AB5619F557E80075FD1D /* Main.storyboard in Resources */,
+				D0D2AB6E19F562820075FD1D /* 089B66EAD82B1C209FC871020C7208E1.jpeg in Resources */,
 				D0D2AB5819F557E80075FD1D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
