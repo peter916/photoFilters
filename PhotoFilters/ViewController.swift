@@ -22,9 +22,7 @@ class ViewController: UIViewController ,UIImagePickerControllerDelegate,UINaviga
     
     var filter: CIFilter!
     
-    
-    
-    
+        
     @IBAction func applyFilter(sender: AnyObject) {
         
         //create an image to filter
