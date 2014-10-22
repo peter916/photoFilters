@@ -54,16 +54,10 @@ class ViewController: UIViewController ,UIImagePickerControllerDelegate,UINaviga
 
     @IBAction func savePhoto(sender: AnyObject) {
         
-        
-     //   CGImage cgImage = photoImageView.image.CGImage
         let library = ALAssetsLibrary()
         library.writeImageToSavedPhotosAlbum(renderedImage
             ,metadata: inputImage.properties()
             , completionBlock: nil)
-        
-        
-        
-        
         
     }
     
