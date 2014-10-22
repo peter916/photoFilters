@@ -13,17 +13,16 @@ photoFilters
         pickerC.delegate = self
         
         self.presentViewController(pickerC, animated: true, completion: nil)
-    }
+}
 ###选择图片
-重写方法
+//重写方法
 func imagePickerController(picker: UIImagePickerController!, didFinishPickingMediaWithInfo info: NSDictionary!) {
         
         self.dismissViewControllerAnimated(true, completion: nil)
        
         let gotImage = info[UIImagePickerControllerOriginalImage] as UIImage
         photoImageView.image = gotImage
-        
-    }
+}
 
 ###保存相册
  @IBAction func savePhoto(sender: AnyObject) {
@@ -32,8 +31,7 @@ func imagePickerController(picker: UIImagePickerController!, didFinishPickingMed
         library.writeImageToSavedPhotosAlbum(renderedImage
             ,metadata: inputImage.properties()
             , completionBlock: nil)
-        
-    }
+}
 ###图像过滤
 
 ###关键类
