@@ -1,4 +1,4 @@
-swiftStudy
+photoFilters
 ==========
 
 ##CoreImage
